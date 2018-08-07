@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { colors, fonts, transitions } from '../styles';
+import { colors, fonts } from '../styles';
 
 const StyledTitle = styled.h1`
   color: ${({color}) => color};
@@ -31,8 +31,8 @@ Title.propTypes = {
 
 Title.defaultProps = {
   text: 'Read me',
-  color: 'lightGrey',
-  size: 'large',
+  color: colors.lightGrey,
+  size: fonts.size.large,
 };
 
 export default Title;

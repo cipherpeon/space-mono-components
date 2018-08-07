@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { colors, fonts, transitions } from '../styles';
+import { colors, fonts, transitions, borders } from '../styles';
 
 const StyledButton = styled.button`
   transition: ${transitions.button};
@@ -71,11 +71,11 @@ Button.propTypes = {
 Button.defaultProps = {
   outline: false,
   text: 'Click me',
-  color: 'darkGrey',
-  hoverColor: 'darkGrey',
-  activeColor: 'darkerGrey',
-  size: 'medium',
-  border: 'moderate',
+  color: colors.darkGrey,
+  hoverColor: colors.darkGrey,
+  activeColor: colors.darkerGrey,
+  size: fonts.size.medium,
+  border: borders.width.moderate,
   disabled: false,
   round: false,
 };

@@ -3,7 +3,7 @@ import Button from './components/Button.js';
 import Title from './components/Title.js';
 import Line from './components/Line.js';
 import { Grid, Row, Col } from 'react-bootstrap';
-import { colors, fonts, borders, transitions } from './styles';
+import { colors, fonts, borders } from './styles';
 
 class App extends Component {
   render() {

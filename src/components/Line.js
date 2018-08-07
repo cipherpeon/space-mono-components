@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { colors, fonts, transitions } from '../styles';
+import { colors } from '../styles';
 
 const StyledLine = styled.div`
   background-color: ${({color}) => color};
@@ -24,7 +24,7 @@ Line.propTypes = {
 };
 
 Line.defaultProps = {
-  color: 'lightGrey',
+  color: colors.lightGrey,
 };
 
 export default Line;

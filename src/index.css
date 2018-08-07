@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: 'Space Mono', monospace;
+}
+
+.col-xs-12 {
+    padding: 20px;
+}

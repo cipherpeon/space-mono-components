@@ -13,6 +13,7 @@ const StyledButton = styled.button`
   position: relative;
   display: block;
   margin-bottom: 10px;
+  padding: 5px 20px;
   pointer-events: ${({ disabled }) => disabled ? 'none' : 'auto' };
   font-size: ${({size}) => size};
   &:focus {
@@ -23,11 +24,12 @@ const StyledButton = styled.button`
     border-color: ${({hoverColor}) => hoverColor};
     border-bottom-width: ${({border}) => 2 * border + 'px'}
     margin-top: ${({border}) => 0 - border + 'px'}
-    cursor: pointer;
   };
   &:active {
     color: ${({activeColor}) => activeColor};
+    border-color: ${({activeColor}) => activeColor};
     border-bottom-width: ${({border}) => border + 'px'};
+    border-style: solid;
     margin-top: 0px;
   }
 `;

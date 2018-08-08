@@ -70,6 +70,28 @@ class App extends Component {
             />
           </Col>
         </Row>
+        <Row>
+          <Title
+            color={colors.lightGrey}
+            size={fonts.size.large}
+            text={"Dapp buttons"}
+          />
+          <Line
+            color={colors.lightGrey}
+          />
+        </Row>
+        <Row>
+          <Col xs={12} sm={6}>
+            <Button
+              color={colors.darkGrey}
+              hoverColor={colors.metamask}
+              activeColor={colors.metamaskDarker}
+              size={fonts.size.medium}
+              border={borders.width.thick}
+              text="Login with MetaMask"
+            />
+          </Col>
+        </Row>
       </Grid>
     );
   }

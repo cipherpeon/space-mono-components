@@ -3,6 +3,8 @@ export const colors = {
   lightGrey: '#999',
   darkGrey: '#222',
   darkerGrey: '#111',
+  metamask: '#F6851B',
+  metamaskDarker: '#E2761B',
 }
 
 export const transitions = {
